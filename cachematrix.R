@@ -5,7 +5,7 @@
 ## from the value cached in the "makeCacheMatrix"
 
 
-##This function create a matrix with a cached inverse
+##This function creates a matrix with a cached inverse
 makeCacheMatrix <- function(x = matrix()) {
     invs <- NULL
     set <- function(y) {
